@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "SpecialElite-regular" ;
+    src: url(../FUENTE/SpecialElite-Regular.ttf);
+}
+body{
+    background-color: #FFEEDB;
+    color: #0A1D37;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #0A1D37;
+}
+a:hover{
+    color: #FFEEDB;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 1000px) {
+    header{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .cajacontacto{
+        background-color: #FFEEDB;
+        width: 100%; 
+       }
+}    .contenedordehabilidades{
+    width: 60%;
+    }
+    .cajasproyectos{
+    width: 80%;
+}
+@media (max-width:1024px){
+    .presentacion{
+        display: block;  
+    }
+    .miimagen{
+        margin-top: 50px;
+    }
+    .escribimeycontactame{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media (max-width:768px){
+    .minombre2{
+        font-size: 2.3rem;
+    }
+    .mititulo{
+        font-size: 2rem;
+    }
+    .mitexto{
+        font-size: large;
+    }
+   .nav-footer{
+       display: none;
+   }
+}
+@media (max-width:480px){
+    .mipersona{
+        font-size: small;
+    }
+    .contenedoralguien .virgilio1{
+        font-size: 1rem;
+    }
+    .contenedoralguien .virgilio2{
+        font-size: 1.4rem;
+    }
+    .mititulo{
+        font-size: 1.8rem ;
+    }
+    .mitexto{
+        font-size: medium;
+    }
+    .cajacontactame{
+        min-width: 50%;
+        margin-left: 10px;
+    }
+   .contactonombre{
+       display: flex;
+       flex-direction: column;
+   }
+   .titulocontactame{
+       font-size: 2.3rem;
+    }
+   .pcontacto{
+       font-size:medium ;
+   }
+   .inputnombre{
+       width: 170%;
+    }
+    .inputemail{
+        width: 170%;
+    }
+    .redondeado{
+        width: 170%;
+    }
+   .tituloescribime{
+        font-size: 1.6rem;
+    }
+    #iconos-footer-dos{
+        margin: 0 1.10rem;
+    }
+}
+@media (max-width:320px){
+    .contenedoralguien .virgilio1{
+        font-size: 0.8rem;
+    }
+    .contenedoralguien .virgilio2{
+        font-size: 1.2rem;
+    }
+    .mititulo{
+        font-size: 1.6rem;
+    }
+    .mitexto{
+        font-size: small;
+    }
+    .cajacontactame{
+        min-width: 50%;
+        margin-left: 10px;
+    }
+    .titulocontactame{
+        font-size: 2rem;
+    }
+    .pcontacto{
+        font-size: small;
+    }
+    .tituloescribime{
+        font-size: 1.3rem;
+    }
+    .link-redes{
+        font-size: small;
+    }
+    #iconos-footer-dos{
+        margin: 0 1rem;
+    }
+    .inputnombre{
+        width: 180%;
+    }
+    .inputemail{
+        width: 175%;
+    }
+    .redondeado{
+        width: 175%;
+    }
+}
