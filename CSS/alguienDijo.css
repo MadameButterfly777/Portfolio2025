@@ -9,19 +9,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #411f2d;
 }
-.contenedoralguien .comillas{
-    font-size: 7.5rem;
-    color: #0A1D37;
+.comillas{
+    font-size: 7rem;
+    color: #411f2d;
     margin-top: 1.3em;
 }
 
-.contenedoralguien .virgilio1{
+.virgilio1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 1.5em;
     font-size: larger
 }
-.contenedoralguien .virgilio2{
+.contenedoralguien,.virgilio2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 1em;
     font-size: 1.875rem;
