@@ -1,0 +1,46 @@
+footer{
+    
+    background-color: #FFBD9B;
+    border-radius: 35px;
+    border: 1px solid #FFD8CC;
+    box-shadow: 0px 0px 15px #FFBD9B;
+}
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+}
+.nav-footer{
+    text-align: center;
+    line-height: 6.563em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.875em;
+    font-size: large;
+}
+.nav-links{
+    margin: 0 1.25em;
+}
+.iconos-footer{
+    text-align: center;
+    margin-top: 1.25em;
+}
+#iconos-footer-dos{
+    display: inline;
+    text-align: center;
+    font-size: 1.875rem;
+    margin: 0 1.25em;
+}
+#iconos-footer-dos:hover{
+    background-color:#0A1D37;
+    color: #FFD8CC;
+}
+#conamor{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "SpecialElite-regular";
+    font-size: 1.563rem;
+    visibility: visible;
+}
+.niñita{
+    color: rgb(218, 18, 18);
+}
