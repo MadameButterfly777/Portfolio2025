@@ -1,0 +1,28 @@
+.alguiendijo{
+    
+    height: 40em;
+    background-color: #FFBD9B;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px #FFBD9B;
+}
+.contenedoralguien{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedoralguien .comillas{
+    font-size: 7.5rem;
+    color: #0A1D37;
+    margin-top: 1.3em;
+}
+
+.contenedoralguien .virgilio1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5em;
+    font-size: larger
+}
+.contenedoralguien .virgilio2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
+    font-size: 1.875rem;
+}
