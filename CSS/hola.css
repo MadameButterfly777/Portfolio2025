@@ -1,0 +1,48 @@
+.presentacion{
+    margin-top:12.5em;
+    display: flex;      
+    border-radius: 6.25em;
+    margin-left: 15%;
+}       
+.minombre{      
+    margin-top: 5.25em;      
+    margin-left: auto;
+}       
+.minombre1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A1D37;
+    font-size: 2.188rem;
+    font-weight:900; 
+}
+.minombre2{
+    margin-top: 0.625em;
+    font-family: "SpecialElite-regular" ;
+    font-size: 2.813rem;
+}
+.mipersona{
+    margin-top: 1.25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.miimagen{
+    margin-top: 3.125em;
+    margin-right:auto;
+}
+.boton{
+    background-color:#FFBD9B ;
+    color: #0A1D37;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:900;
+    margin-top: 3.125em;
+}
+.boton:hover{
+    background-color: #0A1D37;
+    color: #FFEEDB;
+    transition: 0.4s;
+}
+.boton-a:hover{
+    color: #FFEEDB;
+}
