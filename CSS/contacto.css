@@ -92,7 +92,7 @@ label{
 }
 .boton2{
 background-color:#FFBD9B ;
-color: #0A1D37;
+color: #411f2d ;
 border: none;
 border-radius: 20px;
 padding: 1em;
@@ -102,7 +102,7 @@ font-weight:900;
 margin-top: 0.625em;
 }
 .boton2:hover{
-background-color: #0A1D37;
+background-color: #411f2d ;
 color: #FFEEDB;
 transition: 0.4s;
 }
